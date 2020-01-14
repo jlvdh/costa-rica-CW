@@ -2,9 +2,9 @@
 
 body {
     margin: 0;
-    background-color: #005d56;
-    /* background-image: url("../img/costa-rica-bg.png");
-    background-blend-mode: screen; */
+    /* background-color: #005d56; */
+    background-image: url("../img/costa-rica-bg.png");
+    /* background-blend-mode: screen; */
     color: white;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
@@ -57,12 +57,13 @@ img {
 }
 
 .bg-overlay {
-    background-image: url("../img/costa-rica-bg.png");
+    background-color: #005d56;
+    /* background-image: url("../img/costa-rica-bg.png"); */
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.9;
 }
